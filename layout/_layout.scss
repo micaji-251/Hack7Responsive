@@ -1,0 +1,45 @@
+
+
+body{
+    width: 1440px;
+    background-color:  #F2F2F2;
+    border-radius: 12px;
+
+}
+
+main{
+    padding: 65px;
+    margin: 0 auto;
+
+}
+
+.container{
+    display: flex;
+}
+
+
+.section__container{
+
+    width: 413px;
+    border-radius: 12px;
+    background: #FFF;
+    margin-bottom:45px;
+    padding: 23px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.11);
+    
+}
+
+.second_column{
+    margin-left: 35.5px;
+}
+
+.section__container2{
+    width: 100%;
+}
+
+.divisortitle{
+    color: #4F4F4F;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+

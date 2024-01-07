@@ -1,0 +1,349 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li, ul, ol {
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.section__title {
+  color: #4F4F4F;
+  font-size: 2.4rem;
+  font-weight: 500;
+  padding: 17px 0px;
+}
+
+.normal__text {
+  padding-top: 20px;
+  font-size: 1.8rem;
+  color: #828282;
+  font-weight: 500;
+  padding-right: 80px;
+}
+.normal__text--small {
+  font-size: 1.6rem;
+  padding-right: 0px;
+}
+.normal__text--bottom {
+  padding-bottom: 15px;
+}
+
+html, body, main {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.experience__number {
+  display: flex;
+  padding: 20px 0px;
+}
+.experience__number .experience__imgcontainer {
+  width: 84px;
+}
+.experience__number .experience__imgcontainer img {
+  width: 84px;
+  height: 84px;
+}
+.experience__number .text__container {
+  padding-left: 15px;
+}
+.experience__number .text__container .dates {
+  font-size: 1.4rem;
+  color: #828282;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.experience__number .text__container .jobtitle {
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.first_column .section__container .intro__imgcontainer {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.first_column .section__container .intro__textcontainer {
+  padding-bottom: 10px;
+}
+.first_column .section__container .intro__textcontainer .name {
+  color: #4F4F4F;
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding-bottom: 7px;
+}
+.first_column .section__container .intro__textcontainer .title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #828282;
+  padding-bottom: 32px;
+}
+.first_column .section__container .intro__textcontainer .icontext {
+  padding-bottom: 10px;
+}
+.first_column .section__container .intro__textcontainer span {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.first_column .section__container .intro__textcontainer i {
+  padding-right: 5px;
+}
+
+.hobbies .hobbiestitle {
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.hobbies .hobbies__imgcontainer {
+  padding-top: 15px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+}
+.progress .progress__article {
+  height: auto;
+}
+.progress .progress__article .progresstitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--Gray-2, #4F4F4F);
+  text-transform: uppercase;
+}
+.progress .progress__article2 {
+  height: 50%;
+}
+.progress .progress__bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.progress .progress__bar .progress__text {
+  color: #4F4F4F;
+  font-size: 1.6rem;
+  font-weight: 500;
+  float: left;
+  width: 30%;
+  padding-right: 1px;
+}
+
+.project .project__article {
+  display: flex;
+}
+.project .project__imgcontainer {
+  width: 320px;
+  margin-right: 5px;
+}
+.project .project__imgcontainer img {
+  width: 320px;
+}
+.project .project__text {
+  padding-left: 15px;
+}
+.project .project__text .project__hash {
+  color: #4F4F4F;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.project .project__text .project__title {
+  color: #333;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.project .project__text .buttons {
+  display: flex;
+  margin-top: 35px;
+}
+.project .project__text .buttons .button1 {
+  margin-right: 15px;
+  padding: 10px 40px;
+  color: white;
+  background-color: #2F80ED;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  border: none;
+}
+.project .project__text .buttons .button1--inverso {
+  border: 1px solid #2F80ED;
+  background-color: #FFF;
+  color: #2F80ED;
+}
+.project .project__text .buttons .button1:hover {
+  background-color: #000203;
+}
+.project .project__text .buttons .button1--inverso:hover {
+  background-color: #042550;
+}
+
+.blog {
+  display: flex;
+  padding-right: 0 !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog .blog__text {
+  width: 400px;
+}
+.blog .blog__text .blog__type {
+  color: #E0E0E0;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.blog .blog__text .blog__title {
+  color: #333;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+.blog .blog__text .marca {
+  color: #2F80ED;
+  font-size: 1.6rem;
+  padding-top: 22px;
+}
+.blog .blog__imgcontainer {
+  padding-left: 15px;
+  float: right;
+  width: 400px;
+}
+.blog .blog__imgcontainer .blog__img {
+  width: 100%;
+}
+
+footer {
+  padding: 15px;
+}
+footer p {
+  color: #828282;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+footer p span {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+body {
+  width: 1440px;
+  background-color: #F2F2F2;
+  border-radius: 12px;
+}
+
+main {
+  padding: 65px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+}
+
+.section__container {
+  width: 413px;
+  border-radius: 12px;
+  background: #FFF;
+  margin-bottom: 45px;
+  padding: 23px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.11);
+}
+
+.second_column {
+  margin-left: 35.5px;
+}
+
+.section__container2 {
+  width: 100%;
+}
+
+.divisortitle {
+  color: #4F4F4F;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+@media (max-width: 801px) {
+  body {
+    width: 801px;
+  }
+  main {
+    padding: 40px;
+    margin: 0 auto;
+  }
+  .progress {
+    display: flex;
+    flex-direction: column;
+  }
+  .section__container2 {
+    width: 413px;
+    margin-right: 65px;
+  }
+  .project__article {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project__hash {
+    padding-top: 10px;
+  }
+  .marca {
+    padding-bottom: 10px;
+  }
+  .blog {
+    flex-direction: column;
+  }
+  .blog .blog__text {
+    padding-right: 15px;
+  }
+  .blog .blog__imgcontainer {
+    width: 390px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    width: 480px;
+  }
+  main {
+    padding: 30px;
+    margin: 0 auto;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .second_column {
+    margin-left: 0;
+  }
+  .progress {
+    display: flex;
+    flex-direction: column;
+  }
+  .project__hash {
+    padding-top: 15px;
+  }
+  .marca {
+    padding-bottom: 15px;
+  }
+  .section__container2 {
+    width: 413px;
+    margin-right: 65px;
+  }
+  .project__article {
+    flex-direction: column;
+  }
+  .blog {
+    flex-direction: column;
+  }
+  .blog .blog__text {
+    padding-right: 15px;
+  }
+  .blog .blog__imgcontainer {
+    width: 390px;
+  }
+}/*# sourceMappingURL=styles.css.map */

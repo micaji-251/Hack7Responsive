@@ -1,0 +1,39 @@
+
+.progress{
+
+    display:flex;
+    justify-content:space-between;
+    
+    .progress__article{
+        height: auto;
+
+        .progresstitle{
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--Gray-2, #4F4F4F);
+            text-transform: uppercase;
+        }
+    }
+
+    .progress__article2{
+        height: 50%;
+
+    }
+    
+    .progress__bar{
+        display:flex;
+        align-items: center;
+        padding: 10px 0;
+
+        .progress__text{
+            color: #4F4F4F;
+            font-size:1.6rem;
+            font-weight: 500;
+            float: left;
+            width:30%;
+            padding-right: 1px;
+
+        }
+    }
+
+}

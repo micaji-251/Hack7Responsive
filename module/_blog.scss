@@ -1,0 +1,37 @@
+.blog{
+    display:flex;
+    padding-right:0 !important;
+    justify-content:space-between;
+    align-items: center;
+
+    .blog__text{
+        width: 400px;
+        .blog__type{
+            color: #E0E0E0;
+            font-weight: 500;
+            font-size:1.6rem;
+        }
+
+        .blog__title{
+            color: #333;
+            font-weight: 500;
+            font-size:2.4rem;
+        }
+
+        .marca{
+            color: #2F80ED;
+            font-size:1.6rem;
+            padding-top:22px;
+        }
+    }
+
+    .blog__imgcontainer{
+        padding-left:15px;
+        float: right;
+        width:400px;
+
+        .blog__img{
+            width:100%;
+        }
+    }
+}
